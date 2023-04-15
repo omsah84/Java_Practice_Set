@@ -3,6 +3,7 @@ public class DownwardTrianglePattern {
         for (int i = 0; i < 5; i++) {
             for (int j = 5; j > i; j--) {
                 System.out.print("*");
+                // System.out.print('A'+ j);
             }
             
             System.out.println();
